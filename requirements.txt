@@ -1,0 +1,5 @@
+mysql-connector-python
+sendgrid
+schedule
+selenium
+python-dotenv
