@@ -152,6 +152,7 @@ schedule.every().day.at("12:00").do(scrape_kindle_highlights)
 
 if __name__ == "__main__":
     setup_database_and_table()
+    scrape_kindle_highlights()
     print("Script gestart. Wacht op geplande taken...")
     while True:
         schedule.run_pending()
