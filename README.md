@@ -29,6 +29,7 @@
   <li>
     <strong>Edit the <code>.env</code> File</strong><br>
     Fill in the required settings in the <code>.env</code> file, including your SendGrid API key and other relevant configuration details.
+    <pre><code>cp .env.example .env</code></pre>
   </li>
   <li>
     <strong>Run the Project with Docker</strong><br>
